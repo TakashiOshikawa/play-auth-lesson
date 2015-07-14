@@ -1,0 +1,22 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /play-auth/index                           controllers.Application.index
+POST    /play-auth/index                           controllers.Application.index
+POST    /play-auth/form_sample                     controllers.Application.formSample
+POST    /play-auth/data/tasks                      controllers.Application.initTasks
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /play-auth/assets/*file               controllers.Assets.at(path="/public", file)
+
+# SubApp page
+GET     /play-auth/sub/index                       controllers.Subapp.index
+GET     /play-auth/sub/login                       controllers.Subapp.login
+POST    /play-auth/sub/login                       controllers.Subapp.login
+GET     /play-auth/sub/test                        controllers.Subapp.testPage
+POST    /play-auth/sub/authenticate                controllers.Subapp.authenticate
+GET     /play-auth/sub/success                     controllers.Subapp.okPage
+POST    /play-auth/sub/register                    controllers.Subapp.register
+GET     /play-auth/sub/logout                      controllers.Subapp.logout

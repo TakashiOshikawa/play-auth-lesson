@@ -1,0 +1,22 @@
+<IntegrationSpec-results timestamp="1434499392869"><result location="IntegrationSpec (IntegrationSpec.scala:17)" id="708906715"><stats time="1465" expectations="1" errors="1" examples="1"></stats></result>
+</IntegrationSpec-results>
+<IntegrationSpec-stats timestamp="1434499392876"><stats time="1468" expectations="1" errors="1" examples="1"></stats></IntegrationSpec-stats>
+<IntegrationSpec-results timestamp="1434499454789"><result location="IntegrationSpec (IntegrationSpec.scala:17)" id="708906715"><stats time="3640" expectations="1" failures="1" examples="1"></stats></result>
+</IntegrationSpec-results>
+<IntegrationSpec-stats timestamp="1434499454795"><stats time="3641" expectations="1" failures="1" examples="1"><trend><stats time="3641" failures="1" errors="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1434500482776"><stats time="1"><trend><stats time="1" expectations="-1" failures="-1" examples="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1434575532029"><stats><trend><stats expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1434792376875"><stats><trend><stats expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1434796614506"><stats time="10"><trend><stats time="10" expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1434797413853"><stats time="8"><trend><stats time="8" expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1434797438900"><stats time="4"><trend><stats time="4" expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1434797588716"><stats time="6"><trend><stats time="6" expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1434797659717"><stats time="4"><trend><stats time="4" expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1434797844493"><stats time="10"><trend><stats time="10" expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1434797871883"><stats time="8"><trend><stats time="8" expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1434797951619"><stats time="9"><trend><stats time="9" expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1434810292377"><stats time="8"><trend><stats time="8" expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1434810321154"><stats time="4"><trend><stats time="4" expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1434814213213"><stats time="9"><trend><stats time="9" expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1436097949551"><stats time="3"><trend><stats time="3" expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
+<IntegrationSpec-stats timestamp="1436274866673"><stats><trend><stats expectations="-1"></stats></trend></stats></IntegrationSpec-stats>
