@@ -43,7 +43,7 @@ class ApplicationSpec extends Specification {
     }
 
     "-4 factorial numbers is" in {
-      factorial(-4) === -24
+      factorial(-5) === 120
     }
   }
 
@@ -65,7 +65,8 @@ class ApplicationSpec extends Specification {
   val factorial = (n: Int) => {
     @annotation.tailrec
     def loop(num: Int, sum: Int): Int = (num, sum) match {
-      case (0, sum) => sum
+      case (0, sum)   => sum
+      case (num, sum) if(num <= 0) => loop(num+1, sum*num)
       case (num, sum) => loop(num - 1, sum * num)
     }
     loop(n, 1)
