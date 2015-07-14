@@ -41,6 +41,9 @@ class ApplicationSpec extends Specification {
       add(5,6) === 11
     }
     "test2" in {
+      add(1243,345) === 1588
+    }
+    "test3" in {
       "Hello World" === "Hello World"
     }
   }
