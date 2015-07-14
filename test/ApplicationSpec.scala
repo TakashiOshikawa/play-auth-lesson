@@ -33,6 +33,20 @@ class ApplicationSpec extends Specification {
     }
   }
 
+  "factorial test" should {
+    "factorial pattern 1" in {
+      "1 factorial numbers is" factorial(1) === 1
+    }
+
+    "factorial pattern 2" in {
+      "5 factorial numbers is" factorial(1) === 120
+    }
+
+    "factorial pattern 3" in {
+      "-4 factorial numbers is" factorial(1) === -24
+    }
+  }
+
 
   def add(x: Int, y: Int): Int = x+y
 
@@ -47,14 +61,15 @@ class ApplicationSpec extends Specification {
       "Hello World" === "Hello World"
     }
   }
-//
-//  val factorial = (n: Int) => {
-//
-//    @annotation.tailrec
-//    def loop(num: Int, sum: Int): Int = match {
-//      0 => loop()
-//    }
-//  }
+
+  val factorial = (n: Int) => {
+    @annotation.tailrec
+    def loop(num: Int, sum: Int): Int = (num, sum) match {
+      case (0, sum) => sum
+      case (num, sum) => loop(num - 1, sum * num)
+    }
+    loop(n, 1)
+  }
 
 
 }
