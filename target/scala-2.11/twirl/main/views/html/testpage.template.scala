@@ -185,7 +185,7 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 }
               /*
                   -- GENERATED --
-                  DATE: Tue Jul 07 22:14:16 JST 2015
+                  DATE: Tue Jul 14 09:54:17 JST 2015
                   SOURCE: /Users/oshikawatakashi/various/play-auth-lesson/app/views/testpage.scala.html
                   HASH: 6f7173d70e8f126b3388c4eb37ff6ca4d5985df1
                   MATRIX: 583->0|810->201|824->207|890->252|998->333|1013->339|1069->374|7096->6373|7112->6379|7174->6419|7251->6468|7267->6474|7323->6508

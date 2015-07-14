@@ -38,3 +38,4 @@
 <ApplicationSpec-stats timestamp="1434814213576"><stats time="68" expectations="5" successes="5" examples="5"><trend><stats time="68" failures="-1" successes="1"></stats></trend></stats></ApplicationSpec-stats>
 <ApplicationSpec-stats timestamp="1436097949376"><stats time="115" expectations="5" successes="5" examples="5"></stats></ApplicationSpec-stats>
 <ApplicationSpec-stats timestamp="1436274866516"><stats time="128" expectations="5" successes="5" examples="5"></stats></ApplicationSpec-stats>
+<ApplicationSpec-stats timestamp="1436835301845"><stats time="317" expectations="5" successes="5" examples="5"></stats></ApplicationSpec-stats>

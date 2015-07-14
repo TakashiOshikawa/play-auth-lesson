@@ -10,25 +10,10 @@ import org.specs2.runner._
 @RunWith(classOf[JUnitRunner])
 class ApplicationSpec extends Specification {
 
-  //  "Application" should {
-  //
-  //    "send 404 on a bad request" in new WithApplication{
-  //      route(FakeRequest(GET, "/boum")) must beNone
-  //    }
-  //
-  //    "render the index page" in new WithApplication{
-  //      val home = route(FakeRequest(GET, "/")).get
-  //
-  //      status(home) must equalTo(OK)
-  //      contentType(home) must beSome.which(_ == "text/html")
-  //      contentAsString(home) must contain ("Your new application is ready.")
-  //    }
-  //  }
-
   /*
    * テスト形式
    *
-   * "テストのかたまり" should {
+   * "テストの大きなくくり" should {
    *   "テストタイトル" in {
    *     テスト対象 must 結果判定
    *   }
@@ -53,13 +38,20 @@ class ApplicationSpec extends Specification {
 
   "add test main" should {
     "test1" in {
-//      add(5,6) must_== 11
       add(5,6) === 11
     }
     "test2" in {
       "Hello World" === "Hello World"
     }
   }
+//
+//  val factorial = (n: Int) => {
+//
+//    @annotation.tailrec
+//    def loop(num: Int, sum: Int): Int = match {
+//      0 => loop()
+//    }
+//  }
 
 
 }

@@ -40,7 +40,7 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 }
               /*
                   -- GENERATED --
-                  DATE: Tue Jul 07 22:14:16 JST 2015
+                  DATE: Tue Jul 14 09:54:17 JST 2015
                   SOURCE: /Users/oshikawatakashi/various/play-auth-lesson/app/views/login.scala.html
                   HASH: 44aa90d108a3d8b725abb1fbb9dd1fc240669433
                   MATRIX: 580->0
