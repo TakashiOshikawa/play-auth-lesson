@@ -34,16 +34,16 @@ class ApplicationSpec extends Specification {
   }
 
   "factorial test" should {
-    "factorial pattern 1" in {
-      "1 factorial numbers is" factorial(1) === 1
+    "1 factorial numbers is" in {
+      factorial(1) === 1
     }
 
-    "factorial pattern 2" in {
-      "5 factorial numbers is" factorial(1) === 120
+    "5 factorial numbers is" in {
+      factorial(1) === 120
     }
 
-    "factorial pattern 3" in {
-      "-4 factorial numbers is" factorial(1) === -24
+    "-4 factorial numbers is" in {
+      factorial(1) === -24
     }
   }
 
