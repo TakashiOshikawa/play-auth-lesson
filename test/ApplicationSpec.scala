@@ -39,11 +39,11 @@ class ApplicationSpec extends Specification {
     }
 
     "5 factorial numbers is" in {
-      factorial(1) === 120
+      factorial(5) === 120
     }
 
     "-4 factorial numbers is" in {
-      factorial(1) === -24
+      factorial(-4) === -24
     }
   }
 
