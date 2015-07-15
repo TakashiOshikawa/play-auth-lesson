@@ -4,7 +4,7 @@
 		module="godparent_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20150714095609"
+		publication="20150715220852"
 	>
 		<description>
 		Godparent
@@ -27,7 +27,9 @@
 	</configurations>
 	<publications>
 		<artifact name="godparent_2.11" type="pom" ext="pom" conf="pom"/>
-		<artifact name="godparent_2.11" type="jar" ext="jar" conf="optional" e:classifier="download"/>
+		<artifact name="godparent_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="godparent_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="godparent_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.1" conf="scala-tool->default,optional(default)"/>
@@ -41,5 +43,6 @@
 		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.3.8" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-ws_2.11" rev="2.3.8" conf="compile->default(compile)"/>
 		<dependency org="mysql" name="mysql-connector-java" rev="5.1.24" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.4" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
