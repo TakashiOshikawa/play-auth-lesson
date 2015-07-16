@@ -30,19 +30,35 @@ class UserModelSpec extends Specification {
 
   "DB connection test" should {
 
-    "find user by id" in new WithApplication {
+    "find user by user_id" in new WithApplication {
       running(FakeApplication(additionalConfiguration = inMemoryDatabase("prov_user"))) {
 
-//        val user = User.create(User("okamoto", "okamotos", "オカモト・タカシ"))
+        //        val user = User.create(User("okamoto", "okamotos", "オカモト・タカシ"))
         val Some(user2) = User.findByUserId("okamoto")
 
-//        user.nick_name must equalTo("nameTest")
-//        println(user2)
-//        user.nick_name must equalTo("オカモト・タカシ")
+        //        user.nick_name must equalTo("nameTest")
+        //        println(user2)
+        //        user.nick_name must equalTo("オカモト・タカシ")
         user2.nick_name must equalTo("オカモト・タカシ")
-
       }
     }
+
+    "find user by nick_name" in new WithApplication {
+      running(FakeApplication(additionalConfiguration = inMemoryDatabase("prov_user"))) {
+        val Some(user3) = User.findByNickname("オカモト・タカシ")
+        user3.user_id must equalTo("okamoto")
+      }
+    }
+
+    "findAll user" in new WithApplication {
+      running(FakeApplication( additionalConfiguration = inMemoryDatabase("prov_user")) ) {
+        val users = User.findAll
+        users.size must equalTo(1)
+      }
+    }
+
   }
+
+
 
 }

@@ -87,3 +87,7 @@
 </UserModelSpec-results>
 <UserModelSpec-stats timestamp="1437006351754"><stats time="2323" expectations="3" errors="1" successes="2" examples="3"><trend><stats time="2323" errors="1" successes="-1"></stats></trend></stats></UserModelSpec-stats>
 <UserModelSpec-stats timestamp="1437006459450"><stats time="2442" expectations="3" successes="3" examples="3"><trend><stats time="2442" errors="-1" successes="1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437007389329"><stats time="2619" expectations="3" successes="3" examples="3"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437008007498"><stats time="2486" expectations="3" successes="3" examples="3"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437008174086"><stats time="3060" expectations="4" successes="4" examples="4"><trend><stats time="3060" expectations="1" successes="1" examples="1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437008484438"><stats time="3182" expectations="5" successes="5" examples="5"><trend><stats time="3182" expectations="1" successes="1" examples="1"></stats></trend></stats></UserModelSpec-stats>
