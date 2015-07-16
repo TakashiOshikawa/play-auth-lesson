@@ -7,3 +7,16 @@ database [default] connected at jdbc:mysql://localhost/todolight
 2015-07-01 22:32:30,664 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
+2015-07-16 09:02:18,546 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in pool-1-thread-1 
+Failed to obtain initial connection Sleeping for 0ms and trying again. Attempts left: 0. Exception: java.net.ConnectException: Connection refused.Message:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2015-07-16 09:07:46,194 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in pool-1-thread-1 
+Failed to obtain initial connection Sleeping for 0ms and trying again. Attempts left: 0. Exception: null.Message:ユーザ名またはパスワードが不正です
+Wrong user name or password [28000-175]
+
+2015-07-16 09:14:08,058 - [ERROR] - from com.jolbox.bonecp.hooks.AbstractConnectionHook in pool-1-thread-1 
+Failed to obtain initial connection Sleeping for 0ms and trying again. Attempts left: 0. Exception: null.Message:ユーザ名またはパスワードが不正です
+Wrong user name or password [28000-175]
+

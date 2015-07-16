@@ -2,9 +2,8 @@ import models._
 import org.junit.runner._
 import org.specs2.mutable._
 import org.specs2.runner._
-
-import play.api.test._
 import play.api.test.Helpers._
+import play.api.test._
 
 /**
  * Created by oshikawatakashi on 2015/07/15.
@@ -34,12 +33,12 @@ class UserModelSpec extends Specification {
     "find user by id" in new WithApplication {
       running(FakeApplication(additionalConfiguration = inMemoryDatabase("prov_user"))) {
 
-//        val user = User.create(User("testUser", "testPass", "nameTest"))
+//        val user = User.create(User("okamoto", "okamotos", "オカモト・タカシ"))
         val Some(user2) = User.findByUserId("okamoto")
 
 //        user.nick_name must equalTo("nameTest")
 //        println(user2)
-
+//        user.nick_name must equalTo("オカモト・タカシ")
         user2.nick_name must equalTo("オカモト・タカシ")
 
       }
