@@ -22,6 +22,7 @@ object User {
     }
   }
 
+
   //ユーザIDで検索
   def findByUserId(user_id: String): Option[User] = {
     DB.withConnection { implicit c =>
@@ -30,6 +31,7 @@ object User {
       ).as(User.simple.singleOpt)
     }
   }
+
 
   //ニックネーム検索
   def findByNickname(nick_name: String): Option[User] = {
@@ -40,12 +42,14 @@ object User {
     }
   }
 
+
   //全員取得
   def findAll: Seq[User] = {
     DB.withConnection{ implicit c =>
       SQL("SELECT * FROM prov_user").as(User.simple *)
     }
   }
+
 
   //ユーザ認証
   def authenticate(user_id: String, password: String): Option[User] = {
@@ -62,6 +66,7 @@ object User {
       ).as(User.simple.singleOpt)
     }
   }
+
 
   //ユーザ作成
   def create(user: User): User = {
@@ -84,6 +89,10 @@ object User {
       user
     }
   }
+
+
+
+
 
 }
 

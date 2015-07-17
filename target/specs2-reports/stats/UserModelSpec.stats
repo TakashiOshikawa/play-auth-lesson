@@ -91,3 +91,8 @@
 <UserModelSpec-stats timestamp="1437008007498"><stats time="2486" expectations="3" successes="3" examples="3"></stats></UserModelSpec-stats>
 <UserModelSpec-stats timestamp="1437008174086"><stats time="3060" expectations="4" successes="4" examples="4"><trend><stats time="3060" expectations="1" successes="1" examples="1"></stats></trend></stats></UserModelSpec-stats>
 <UserModelSpec-stats timestamp="1437008484438"><stats time="3182" expectations="5" successes="5" examples="5"><trend><stats time="3182" expectations="1" successes="1" examples="1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437027129681"><stats time="5245" expectations="5" successes="5" examples="5"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437166451067"><stats time="3196" expectations="5" successes="5" examples="5"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437167562137"><stats time="3244" expectations="5" successes="5" examples="5"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437169872067"><stats time="3254" expectations="5" successes="5" examples="5"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437170972252"><stats time="3155" expectations="5" successes="5" examples="5"></stats></UserModelSpec-stats>
