@@ -2,6 +2,10 @@ package models
 
 import slick.driver.H2Driver.api._
 
+import scala.concurrent.Future
+
+import scala.concurrent.ExecutionContext.Implicits.global
+
 /**
  * Created by oshikawatakashi on 2015/07/16.
  */
@@ -41,8 +45,13 @@ object Task {
                 yield LiteralColumn("  ") ++ t.id.asColumnOf[String] ++ "\t" ++ t.taskContent.asColumnOf[String] ++
                       "\t" ++ t.taskTitle.asColumnOf[String]
 
-//  db.stream(task.result).foreach(println)
+  val q = for (c <- tasks) yield c.taskContent
+  val a = q.result
+  val f: Future[Seq[String]] = db.run(a)
+  f.onSuccess { case s => println(s"Result: $s") }
 
+
+  db.stream(task.result).foreach{println}
 
     // ...
   } finally db.close
