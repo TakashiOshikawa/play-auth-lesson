@@ -1,3 +1,4 @@
+import models.DAO.TaskDAO
 import org.junit.runner._
 import org.specs2.mutable._
 import org.specs2.runner._
@@ -55,6 +56,25 @@ class UserModelSpec extends Specification {
 //    }
 //
 //  }
+
+
+
+
+  "Slick DB Connection Test" should {
+
+    "" in {
+//      println( TaskDAO.setup )
+      println( TaskDAO.setupDB )
+      1 must equalTo(1)
+    }
+
+    "select all Task title" in {
+      val res = TaskDAO.findAll
+      println(res + ">>>>>>>>>=======")
+      1 must equalTo(1)
+    }
+
+  }
 
 
 
