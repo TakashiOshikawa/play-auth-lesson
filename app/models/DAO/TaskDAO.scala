@@ -29,7 +29,7 @@ object TaskDAO {
 
   val tasks: TableQuery[TasksTable] = TableQuery[TasksTable]
 
-  lazy val setupDB = {
+  def setupDB() = {
     val db = Database.forConfig("h2mem1")
     Await.result(db.run(DBIO.seq(
       // create the schema
@@ -37,7 +37,7 @@ object TaskDAO {
     )), Duration.Inf)
   }
 
-  lazy val setup = {
+  def setup() = {
     val db = Database.forConfig("h2mem1")
     Await.result(db.run(DBIO.seq(
       // create the schema
@@ -59,27 +59,52 @@ object TaskDAO {
 
 
   //DBIO
-  val resultWrapper = (dbio: slick.dbio.DBIOAction[_,slick.dbio.NoStream,Nothing]) => {
+//  def resultWrapper(dbio: slick.dbio.DBIOAction[_,slick.dbio.NoStream,Nothing]) = {
+  def resultWrapper( dbio: slick.driver.H2Driver.StreamingDriverAction[Seq[_],_,slick.dbio.Effect.Read] ) = {
     val db = Database.forConfig("h2mem1")
-    Await.result(db.run(dbio), Duration.Inf)
+    try{
+      val res = Await.result(db.run(dbio), Duration.Inf)
+      res.toSeq
+    } finally db.close
   }
+  //DBIOAction[NotInferedR, NoStream, Nothing]
 
 
-  //SELECT task_title FROM tasks
+  //SELECT * FROM tasks
   def findAll() = {
     val db = Database.forConfig("h2mem1")
     try {
       // Execute query
-      //    val query = for (r <- tasks) yield r.taskTitle
-      val query = tasks.map(t => t.taskTitle)
-      //    val results = db.run(query.result.map(println))
+      val query = tasks.filter(_.id <= 2).map(t => t.*)
 
-      val find = Await.result(db.run(query.result), Duration.Inf)
-      find.toList
+      val res = Await.result(db.run(query.result), Duration.Inf)
+      res.toSeq
     } finally db.close
 
   }
 
+
+  //SELECT task_name, task_title FROM tasks
+  def findTaskTitle() = {
+    val query = tasks.map( _.taskTitle ).result
+    resultWrapper(query)
+  }
+
+//  def findTaskTitle() = {
+//    val db = Database.forConfig("h2mem1")
+//    try {
+//      val query = tasks.map( _.taskTitle ).result
+//      val res = Await.result(db.run(query), Duration.Inf)
+//      res.toSeq
+//    } finally db.close
+//  }
+
+
+  // SELECT select column FROM tasks
+  def findTasksById(id: Int) = {
+    val query = tasks.filter( _.id <= id ).map( _.* ).result
+    resultWrapper(query)
+  }
 
 
 }

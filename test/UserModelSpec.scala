@@ -62,15 +62,29 @@ class UserModelSpec extends Specification {
 
   "Slick DB Connection Test" should {
 
-    "" in {
-//      println( TaskDAO.setup )
-      println( TaskDAO.setupDB )
+    ">>>>>>>" in {
+      println( TaskDAO.setup )
+//      println( TaskDAO.setupDB )
       1 must equalTo(1)
     }
 
     "select all Task title" in {
       val res = TaskDAO.findAll
       println(res + ">>>>>>>>>=======")
+//      1 must equalTo(1)
+      res.length must equalTo(2)
+    }
+
+    "select task_title from tasks" in {
+      val res = TaskDAO.findTaskTitle
+      println( res + ">>>>=========" )
+      1 must equalTo(1)
+    }
+
+    "select tasks by id" in {
+      val res = TaskDAO.findTasksById(2)
+      println( res )
+//      res.toList.length must equalTo(1)
       1 must equalTo(1)
     }
 

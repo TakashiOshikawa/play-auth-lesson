@@ -171,3 +171,52 @@
 <UserModelSpec-stats timestamp="1437277593286"><stats time="1798" expectations="4" successes="4" examples="4"></stats></UserModelSpec-stats>
 <UserModelSpec-stats timestamp="1437277681905"><stats time="1476" expectations="4" successes="4" examples="4"></stats></UserModelSpec-stats>
 <UserModelSpec-stats timestamp="1437278105231"><stats time="2632" expectations="4" successes="4" examples="4"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437287610477"><stats time="2054" expectations="4" successes="4" examples="4"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437287726163"><stats time="1540" expectations="4" successes="4" examples="4"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437287990880"><stats time="1640" expectations="4" successes="4" examples="4"></stats></UserModelSpec-stats>
+<UserModelSpec-results timestamp="1437288068449"><result location="UserModelSpec (UserModelSpec.scala:65)" id="1024827646"><stats time="1321" expectations="1" errors="1" examples="1"></stats></result>
+<result location="UserModelSpec (UserModelSpec.scala:71)" id="1772522400"><stats expectations="1" errors="1" examples="1"></stats></result>
+</UserModelSpec-results>
+<UserModelSpec-stats timestamp="1437288068466"><stats time="1326" expectations="4" errors="2" successes="2" examples="4"><trend><stats time="1326" errors="2" successes="-2"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-results timestamp="1437288291870"><result location="UserModelSpec (UserModelSpec.scala:65)" id="1024827646"><stats time="1421" expectations="1" errors="1" examples="1"></stats></result>
+</UserModelSpec-results>
+<UserModelSpec-stats timestamp="1437288291899"><stats time="1426" expectations="3" errors="1" successes="2" examples="3"><trend><stats time="1426" expectations="-1" errors="-1" examples="-1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-results timestamp="1437288379182"><result location="UserModelSpec (UserModelSpec.scala:65)" id="1024827646"><stats time="1489" expectations="1" errors="1" examples="1"></stats></result>
+</UserModelSpec-results>
+<UserModelSpec-stats timestamp="1437288379197"><stats time="1494" expectations="3" errors="1" successes="2" examples="3"></stats></UserModelSpec-stats>
+<UserModelSpec-results timestamp="1437288430894"><result location="UserModelSpec (UserModelSpec.scala:65)" id="1024827646"><stats time="92" expectations="1" failures="1" examples="1"></stats></result>
+</UserModelSpec-results>
+<UserModelSpec-stats timestamp="1437288430913"><stats time="96" expectations="3" failures="1" successes="2" examples="3"><trend><stats time="96" failures="1" errors="-1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437288628837"><stats time="1428" expectations="3" successes="3" examples="3"><trend><stats time="1428" failures="-1" successes="1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437288670997"><stats time="1409" expectations="4" successes="4" examples="4"><trend><stats time="1409" expectations="1" successes="1" examples="1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437289157718"><stats time="1545" expectations="4" successes="4" examples="4"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437289283759"><stats time="1461" expectations="5" successes="5" examples="5"><trend><stats time="1461" expectations="1" successes="1" examples="1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437289726807"><stats time="1518" expectations="5" successes="5" examples="5"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437290560385"><stats time="1788" expectations="5" successes="5" examples="5"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437290599171"><stats time="1481" expectations="5" successes="5" examples="5"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437292774603"><stats time="1798" expectations="5" successes="5" examples="5"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437292818091"><stats time="1630" expectations="5" successes="5" examples="5"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437363504899"><stats time="1936" expectations="5" successes="5" examples="5"></stats></UserModelSpec-stats>
+<UserModelSpec-results timestamp="1437380311894"><result location="UserModelSpec (UserModelSpec.scala:82)" id="754252110"><stats time="17" expectations="1" failures="1" examples="1"></stats></result>
+</UserModelSpec-results>
+<UserModelSpec-stats timestamp="1437380311909"><stats time="2073" expectations="6" failures="1" successes="5" examples="6"><trend><stats time="2073" expectations="1" failures="1" examples="1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-results timestamp="1437381129963"><result location="UserModelSpec (UserModelSpec.scala:82)" id="754252110"><stats time="20" expectations="1" failures="1" examples="1"></stats></result>
+</UserModelSpec-results>
+<UserModelSpec-stats timestamp="1437381129982"><stats time="1707" expectations="6" failures="1" successes="5" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-results timestamp="1437381205689"><result location="UserModelSpec (UserModelSpec.scala:82)" id="754252110"><stats time="19" expectations="1" failures="1" examples="1"></stats></result>
+</UserModelSpec-results>
+<UserModelSpec-stats timestamp="1437381205709"><stats time="1488" expectations="6" failures="1" successes="5" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-results timestamp="1437381328947"><result location="UserModelSpec (UserModelSpec.scala:82)" id="754252110"><stats time="25" expectations="1" failures="1" examples="1"></stats></result>
+</UserModelSpec-results>
+<UserModelSpec-stats timestamp="1437381328972"><stats time="1465" expectations="6" failures="1" successes="5" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-results timestamp="1437381471001"><result location="UserModelSpec (UserModelSpec.scala:82)" id="754252110"><stats time="18" expectations="1" failures="1" examples="1"></stats></result>
+</UserModelSpec-results>
+<UserModelSpec-stats timestamp="1437381471027"><stats time="1541" expectations="6" failures="1" successes="5" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-results timestamp="1437382238210"><result location="UserModelSpec (UserModelSpec.scala:71)" id="1772522400"><stats time="68" expectations="1" failures="1" examples="1"></stats></result>
+</UserModelSpec-results>
+<UserModelSpec-stats timestamp="1437382238226"><stats time="2102" expectations="6" failures="1" successes="5" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437382298459"><stats time="1528" expectations="6" successes="6" examples="6"><trend><stats time="1528" failures="-1" successes="1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437382656356"><stats time="1463" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437383621838"><stats time="1516" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437383749332"><stats time="1625" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437386307557"><stats time="1743" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>
