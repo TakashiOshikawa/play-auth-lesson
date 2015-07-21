@@ -220,3 +220,18 @@
 <UserModelSpec-stats timestamp="1437383621838"><stats time="1516" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>
 <UserModelSpec-stats timestamp="1437383749332"><stats time="1625" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>
 <UserModelSpec-stats timestamp="1437386307557"><stats time="1743" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437386719442"><stats time="1708" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437387010811"><stats time="1482" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437435607871"><stats time="1700" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437435720601"><stats time="1522" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437435948069"><stats time="1491" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437436098686"><stats time="1497" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437436158102"><stats time="1497" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-results timestamp="1437436773636"><result location="UserModelSpec (UserModelSpec.scala:78)" id="1790196150"><stats time="17" expectations="1" failures="1" examples="1"></stats></result>
+</UserModelSpec-results>
+<UserModelSpec-stats timestamp="1437436773654"><stats time="1943" expectations="6" failures="1" successes="5" examples="6"><trend><stats time="1943" failures="1" successes="-1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-results timestamp="1437436885983"><result location="UserModelSpec (UserModelSpec.scala:78)" id="1790196150"><stats time="13" expectations="1" failures="1" examples="1"></stats></result>
+</UserModelSpec-results>
+<UserModelSpec-stats timestamp="1437436885992"><stats time="1544" expectations="6" failures="1" successes="5" examples="6"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437436958529"><stats time="1632" expectations="6" successes="6" examples="6"><trend><stats time="1632" failures="-1" successes="1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437440011645"><stats time="1774" expectations="6" successes="6" examples="6"></stats></UserModelSpec-stats>

@@ -13,5 +13,8 @@ class TasksTable(tag: Tag) extends Table[(Int, String, String)](tag, "Tasks") {
   def taskTitle = column[String]("TASK_TITLE")
   def taskContent = column[String]("TASK_CONTENT")
 
+//  def _id = (id)
+//  def _taskTitle = (taskTitle)
+//  def _taskContent = (taskContent)
   def * = (id, taskTitle, taskContent)
 }

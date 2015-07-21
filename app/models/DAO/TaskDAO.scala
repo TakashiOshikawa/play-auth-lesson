@@ -59,19 +59,18 @@ object TaskDAO {
 
 
   //DBIO
-//  def resultWrapper(dbio: slick.dbio.DBIOAction[_,slick.dbio.NoStream,Nothing]) = {
-  def resultWrapper( dbio: slick.driver.H2Driver.StreamingDriverAction[Seq[_],_,slick.dbio.Effect.Read] ) = {
+//  def resultWrapper( dbio: slick.driver.H2Driver.StreamingDriverAction[Seq[_],_,slick.dbio.Effect.Read] ) = {
+  lazy val resultWrapper = ( dbio: slick.driver.H2Driver.StreamingDriverAction[Seq[_],_,slick.dbio.Effect.Read] ) => {
     val db = Database.forConfig("h2mem1")
     try{
-      val res = Await.result(db.run(dbio), Duration.Inf)
-      res.toSeq
+      Await.result(db.run(dbio), Duration.Inf)
     } finally db.close
   }
-  //DBIOAction[NotInferedR, NoStream, Nothing]
 
 
   //SELECT * FROM tasks
-  def findAll() = {
+//  def findAll() = {
+  lazy val findAll = {
     val db = Database.forConfig("h2mem1")
     try {
       // Execute query
@@ -80,28 +79,20 @@ object TaskDAO {
       val res = Await.result(db.run(query.result), Duration.Inf)
       res.toSeq
     } finally db.close
-
   }
 
 
   //SELECT task_name, task_title FROM tasks
-  def findTaskTitle() = {
+//  def findTaskTitle() = {
+  lazy val findTaskTitle = {
     val query = tasks.map( _.taskTitle ).result
     resultWrapper(query)
   }
 
-//  def findTaskTitle() = {
-//    val db = Database.forConfig("h2mem1")
-//    try {
-//      val query = tasks.map( _.taskTitle ).result
-//      val res = Await.result(db.run(query), Duration.Inf)
-//      res.toSeq
-//    } finally db.close
-//  }
-
 
   // SELECT select column FROM tasks
-  def findTasksById(id: Int) = {
+//  def findTasksById(id: Int) = {
+  lazy val findTasksById = (id: Int) => {
     val query = tasks.filter( _.id <= id ).map( _.* ).result
     resultWrapper(query)
   }

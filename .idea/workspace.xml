@@ -7,90 +7,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2124c4c9-f044-4d8b-8840-00bb8b3bf44b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$13$$anonfun$apply$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$22$$anonfun$apply$12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$22.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21.class" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$9$$anonfun$apply$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$13$$anonfun$apply$14$$anonfun$apply$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$13$$anonfun$apply$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$13$$anonfun$apply$7.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$10$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$14$$anonfun$apply$3.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$10$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$14$$anonfun$apply$4.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$14.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$9$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$13$$anonfun$apply$1.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$13.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$11$$anonfun$apply$12$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$15$$anonfun$apply$16$$anonfun$apply$6.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$11$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$15$$anonfun$apply$16.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$11$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$15$$anonfun$apply$5.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$15.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Subapp$$anonfun$login$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Subapp$$anonfun$login$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$findTasksById$1$$anonfun$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$findTasksById$1$$anonfun$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$findTasksById$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$resultWrapper$1.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$6.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/table/TasksTable.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/table/TasksTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$20.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$22$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$22$$anonfun$apply$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$22.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$22.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/specs2-reports/stats/ApplicationSpec.stats" afterPath="$PROJECT_DIR$/target/specs2-reports/stats/ApplicationSpec.stats" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/specs2-reports/stats/IntegrationSpec.stats" afterPath="$PROJECT_DIR$/target/specs2-reports/stats/IntegrationSpec.stats" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/DAO/TaskDAO.scala" afterPath="$PROJECT_DIR$/app/models/DAO/TaskDAO.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/table/TasksTable.scala" afterPath="$PROJECT_DIR$/app/models/table/TasksTable.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/UserModelSpec.scala" afterPath="$PROJECT_DIR$/test/UserModelSpec.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/specs2-reports/stats/UserModelSpec.stats" afterPath="$PROJECT_DIR$/target/specs2-reports/stats/UserModelSpec.stats" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/UserModelSpec.xml" afterPath="$PROJECT_DIR$/target/test-reports/UserModelSpec.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-play-auth-lesson-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/godparent-godparent_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/cache/root/compile/play_instrumentation" afterPath="$PROJECT_DIR$/target/scala-2.11/cache/root/compile/play_instrumentation" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/cache/root/test/play_instrumentation" afterPath="$PROJECT_DIR$/target/scala-2.11/cache/root/test/play_instrumentation" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/play-auth-lesson-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/play-auth-lesson-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/godparent/godparent_2.11/1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/godparent/godparent_2.11/1.0-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/play-auth-lesson-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/play-auth-lesson-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/godparent/godparent_2.11/1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/godparent/godparent_2.11/1.0-SNAPSHOT/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/target/streams/$global/test/$global/streams/succeeded_tests" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -175,8 +132,8 @@
       <file leaf-file-name="UserModelSpec.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/UserModelSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.148149">
-              <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -205,10 +162,10 @@
       <file leaf-file-name="TaskDAO.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/DAO/TaskDAO.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08208955">
-              <caret line="61" column="72" selection-start-line="61" selection-start-column="72" selection-end-line="61" selection-end-column="72" />
+            <state vertical-scroll-proportion="1.0671642">
+              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding>
-                <marker date="1437386261000" expanded="true" signature="846:1200" placeholder="..." />
+                <marker date="1437439528000" expanded="true" signature="846:1200" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -218,7 +175,7 @@
         <entry file="file://$PROJECT_DIR$/app/models/table/TasksTable.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -270,11 +227,11 @@
         <option value="$PROJECT_DIR$/app/models/TaskDAO.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/app/models/DAO/TasksTable.scala" />
-        <option value="$PROJECT_DIR$/app/models/table/TasksTable.scala" />
         <option value="$PROJECT_DIR$/app/controllers/SubApp.scala" />
         <option value="$PROJECT_DIR$/conf/application.conf" />
-        <option value="$PROJECT_DIR$/test/UserModelSpec.scala" />
+        <option value="$PROJECT_DIR$/app/models/table/TasksTable.scala" />
         <option value="$PROJECT_DIR$/app/models/DAO/TaskDAO.scala" />
+        <option value="$PROJECT_DIR$/test/UserModelSpec.scala" />
       </list>
     </option>
   </component>
@@ -970,13 +927,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/SubApp.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1312,14 +1262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/UserModelSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.148149">
-          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Task.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1328,20 +1270,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.0.0.jar!/slick/lifted/AbstractTable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13953489">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/table/TasksTable.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/UserModelSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/DAO/TaskDAO.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08208955">
-          <caret line="61" column="72" selection-start-line="61" selection-start-column="72" selection-end-line="61" selection-end-column="72" />
+        <state vertical-scroll-proportion="1.0671642">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
-            <marker date="1437386261000" expanded="true" signature="846:1200" placeholder="..." />
+            <marker date="1437439528000" expanded="true" signature="846:1200" placeholder="..." />
           </folding>
         </state>
       </provider>
