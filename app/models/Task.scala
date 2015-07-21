@@ -2,9 +2,9 @@ package models
 
 import slick.driver.H2Driver.api._
 
-import scala.concurrent.Future
-
 import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.Future
+import models.DAO._
 
 /**
  * Created by oshikawatakashi on 2015/07/16.
@@ -55,5 +55,13 @@ object Task {
 
     // ...
   } finally db.close
+
+
+  // 取得したタスクデータをJSON形式で返す
+  def returnTasks() = {
+    val res = TaskDAO.findAll
+
+  }
+
 
 }

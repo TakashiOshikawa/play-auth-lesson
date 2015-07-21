@@ -93,7 +93,7 @@ object TaskDAO {
   // SELECT select column FROM tasks
 //  def findTasksById(id: Int) = {
   lazy val findTasksById = (id: Int) => {
-    val query = tasks.filter( _.id <= id ).map( _.* ).result
+    val query = tasks.filter( _.id === id ).map( _.* ).result
     resultWrapper(query)
   }
 

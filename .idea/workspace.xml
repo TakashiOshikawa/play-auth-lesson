@@ -7,37 +7,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2124c4c9-f044-4d8b-8840-00bb8b3bf44b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$findTasksById$1$$anonfun$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$findTasksById$1$$anonfun$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$findTasksById$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$resultWrapper$1.class" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$6.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/table/TasksTable.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/table/TasksTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$15$$anonfun$apply$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$16$$anonfun$apply$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$23$$anonfun$apply$24$$anonfun$apply$12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$23$$anonfun$apply$24.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$4$$anonfun$apply$25$$anonfun$apply$13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$4$$anonfun$apply$25$$anonfun$apply$26$$anonfun$apply$14.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$4$$anonfun$apply$25$$anonfun$apply$26.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$4$$anonfun$apply$25.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/util/Utility$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/util/Utility.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/util/Utility.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$13$$anonfun$apply$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$14$$anonfun$apply$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$15$$anonfun$apply$16$$anonfun$apply$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$15$$anonfun$apply$16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$15$$anonfun$apply$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$10.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$13$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$15$$anonfun$apply$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$15.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$14$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$16$$anonfun$apply$3.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2$$anonfun$apply$16.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$15.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$6.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$7.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$23$$anonfun$apply$11.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$22$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$22$$anonfun$apply$10.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$23.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Task$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Task$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Task.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Task.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$findTasksById$1$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/DAO/TaskDAO$$anonfun$findTasksById$1$$anonfun$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17$$anonfun$apply$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$20$$anonfun$apply$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$20.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19$$anonfun$apply$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$22$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$22$$anonfun$apply$12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$22.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21$$anonfun$apply$22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3$$anonfun$apply$21.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/UserModelSpec.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/specs2-reports/stats/ApplicationSpec.stats" afterPath="$PROJECT_DIR$/target/specs2-reports/stats/ApplicationSpec.stats" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/specs2-reports/stats/IntegrationSpec.stats" afterPath="$PROJECT_DIR$/target/specs2-reports/stats/IntegrationSpec.stats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Task.scala" afterPath="$PROJECT_DIR$/app/models/Task.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/DAO/TaskDAO.scala" afterPath="$PROJECT_DIR$/app/models/DAO/TaskDAO.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/table/TasksTable.scala" afterPath="$PROJECT_DIR$/app/models/table/TasksTable.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/UserModelSpec.scala" afterPath="$PROJECT_DIR$/test/UserModelSpec.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/specs2-reports/stats/UserModelSpec.stats" afterPath="$PROJECT_DIR$/target/specs2-reports/stats/UserModelSpec.stats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/UserModelSpec.xml" afterPath="$PROJECT_DIR$/target/test-reports/UserModelSpec.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" />
@@ -123,7 +143,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/SubApp.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -133,8 +153,10 @@
         <entry file="file://$PROJECT_DIR$/test/UserModelSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-              <folding />
+              <caret line="94" column="52" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,23 +171,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Task.scala">
+      <file leaf-file-name="Utility.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/util/Utility.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.2238806">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskDAO.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Task.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Task.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#16#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskDAO.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/DAO/TaskDAO.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0671642">
-              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
               <folding>
-                <marker date="1437439528000" expanded="true" signature="846:1200" placeholder="..." />
+                <marker date="1437440532000" expanded="true" signature="846:1200" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -175,7 +209,7 @@
         <entry file="file://$PROJECT_DIR$/app/models/table/TasksTable.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -223,7 +257,6 @@
         <option value="$PROJECT_DIR$/test/ApplicationSpec.scala" />
         <option value="$PROJECT_DIR$/test/ModelSpec.scala" />
         <option value="$PROJECT_DIR$/app/models/User.scala" />
-        <option value="$PROJECT_DIR$/app/models/Task.scala" />
         <option value="$PROJECT_DIR$/app/models/TaskDAO.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/app/models/DAO/TasksTable.scala" />
@@ -231,7 +264,9 @@
         <option value="$PROJECT_DIR$/conf/application.conf" />
         <option value="$PROJECT_DIR$/app/models/table/TasksTable.scala" />
         <option value="$PROJECT_DIR$/app/models/DAO/TaskDAO.scala" />
+        <option value="$PROJECT_DIR$/app/models/Task.scala" />
         <option value="$PROJECT_DIR$/test/UserModelSpec.scala" />
+        <option value="$PROJECT_DIR$/app/util/Utility.scala" />
       </list>
     </option>
   </component>
@@ -483,6 +518,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Godparent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play-auth-lesson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -927,14 +980,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/SubApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/User.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1246,30 +1291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/SubApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Task.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.0.0.jar!/slick/lifted/AbstractTable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13953489">
@@ -1281,7 +1302,33 @@
     <entry file="file://$PROJECT_DIR$/app/models/table/TasksTable.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/SubApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/DAO/TaskDAO.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding>
+            <marker date="1437440532000" expanded="true" signature="846:1200" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1289,18 +1336,28 @@
     <entry file="file://$PROJECT_DIR$/test/UserModelSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-          <folding />
+          <caret line="94" column="52" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/DAO/TaskDAO.scala">
+    <entry file="file://$PROJECT_DIR$/app/models/Task.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0671642">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <marker date="1437439528000" expanded="true" signature="846:1200" placeholder="..." />
+            <element signature="e#16#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/util/Utility.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2238806">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>

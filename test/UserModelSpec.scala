@@ -1,4 +1,5 @@
 import models.DAO.TaskDAO
+import util._
 import org.junit.runner._
 import org.specs2.mutable._
 import org.specs2.runner._
@@ -83,9 +84,18 @@ class UserModelSpec extends Specification {
     "select tasks by id" in {
       val res = TaskDAO.findTasksById(2)
       println( res )
-      res.length must equalTo(2)
+      res.length must equalTo(1)
     }
 
+  }
+
+
+  "Json Value test" should {
+    "It receives defined data as jSON" in {
+      val json = Utility.convertSeqToJson(Seq(1,2,3))
+      println(json )
+      1 must equalTo(1)
+    }
   }
 
 
