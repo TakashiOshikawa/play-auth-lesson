@@ -1,5 +1,6 @@
 import _root_.util._
 import models.DAO.TaskDAO
+import models.table.Task
 import org.junit.runner._
 import org.specs2.mutable._
 import org.specs2.runner._
@@ -98,10 +99,9 @@ class UserModelSpec extends Specification {
     }
 
     "convert to task to json" in {
-//      val json = Utility.convertTaskToJson(Task(4, "kjh", ",j"))
-//      val t = Task(5, "fg", "jk")
-//      val tj: Reads[Task] = Utility.convertTaskToJson(t)
-//      println( tj )
+      val t = Task(5, "fg", "jk")
+      val tj = Utility.convertTaskToJson(Seq(t))
+      println(tj)
       1 must equalTo(1)
     }
 

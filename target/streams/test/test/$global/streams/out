@@ -2,11 +2,11 @@
 [0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
 [0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 0 initial tasks for 0 tests.[0m
 [0m[[0mdebug[0m] [0mRunner for com.novocode.junit.JUnitFramework produced 3 initial tasks for 3 tests.[0m
-[0m[[0mdebug[0m] [0m  Running TaskDef(ApplicationSpec, sbt.ForkMain$AnnotatedFingerscan@2ce6f23c, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0m  Running TaskDef(IntegrationSpec, sbt.ForkMain$AnnotatedFingerscan@7952e129, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0m  Running TaskDef(UserModelSpec, sbt.ForkMain$AnnotatedFingerscan@76820a79, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(ApplicationSpec, sbt.ForkMain$AnnotatedFingerscan@41103e9b, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(IntegrationSpec, sbt.ForkMain$AnnotatedFingerscan@5c1876f, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(UserModelSpec, sbt.ForkMain$AnnotatedFingerscan@1e82c755, false, [SuiteSelector])[0m
 [0m[[0mdebug[0m] [0mRunner for org.specs2.runner.Specs2Framework produced 3 initial tasks for 3 tests.[0m
-[0m[[0mdebug[0m] [0m  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@5e437c86, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@66bd25a4, false, [SuiteSelector])[0m
 [0m[[0minfo[0m] [0mApplicationSpec[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37mThe 'Hello world ' string should[0m[37m[0m[0m
@@ -25,16 +25,16 @@
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m test3[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0mTotal for specification ApplicationSpec[0m
-[0m[[0minfo[0m] [0m[36mFinished in 100 ms[0m[0m
+[0m[[0minfo[0m] [0m[36mFinished in 142 ms[0m[0m
 [0m[[0minfo[0m] [0m[36m[0m[36m9 examples, 0 failure, 0 error[0m[0m
 [0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 9 events.[0m
-[0m[[0mdebug[0m] [0m  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@473b3198, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@38e678f3, false, [SuiteSelector])[0m
 [0m[[0minfo[0m] [0mIntegrationSpec[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0mTotal for specification IntegrationSpec[0m
-[0m[[0minfo[0m] [0m[36mFinished in 0 ms[0m[0m
+[0m[[0minfo[0m] [0m[36mFinished in 1 ms[0m[0m
 [0m[[0minfo[0m] [0m[36m[0m[36m0 example, 0 failure, 0 error[0m[0m
-[0m[[0mdebug[0m] [0m  Running TaskDef(UserModelSpec, sbt.ForkMain$SubclassFingerscan@669285ea, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(UserModelSpec, sbt.ForkMain$SubclassFingerscan@4ccdb2f5, false, [SuiteSelector])[0m
 [0m[[0minfo[0m] [0mUserModelSpec[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37mUser model test should[0m[37m[0m[0m
@@ -54,11 +54,11 @@
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m parseJson[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0mTotal for specification UserModelSpec[0m
-[0m[[0minfo[0m] [0m[36mFinished in 4 seconds, 344 ms[0m[0m
+[0m[[0minfo[0m] [0m[36mFinished in 2 seconds, 239 ms[0m[0m
 [0m[[0minfo[0m] [0m[36m[0m[36m10 examples, 0 failure, 0 error[0m[0m
 [0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 10 events.[0m
 [0m[[0minfo[0m] [0mScalaTest[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 10 seconds, 93 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 6 seconds, 527 milliseconds.[0m[0m
 [0m[[0minfo[0m] [0m[36mTotal number of tests run: 0[0m[0m
 [0m[[0minfo[0m] [0m[36mSuites: completed 0, aborted 0[0m[0m
 [0m[[0minfo[0m] [0m[36mTests: succeeded 0, failed 0, canceled 0, ignored 0, pending 0[0m[0m

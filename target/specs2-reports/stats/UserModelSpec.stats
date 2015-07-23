@@ -246,3 +246,8 @@
 <UserModelSpec-stats timestamp="1437598066757"><stats time="2429" expectations="7" successes="7" examples="7"></stats></UserModelSpec-stats>
 <UserModelSpec-stats timestamp="1437611617369"><stats time="2586" expectations="8" successes="8" examples="8"><trend><stats time="2586" expectations="1" successes="1" examples="1"></stats></trend></stats></UserModelSpec-stats>
 <UserModelSpec-stats timestamp="1437612171058"><stats time="4344" expectations="10" successes="10" examples="10"><trend><stats time="4344" expectations="2" successes="2" examples="2"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437613312742"><stats time="2365" expectations="10" successes="10" examples="10"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437613995647"><stats time="2232" expectations="10" successes="10" examples="10"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437614047086"><stats time="2359" expectations="10" successes="10" examples="10"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437614123065"><stats time="2659" expectations="10" successes="10" examples="10"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437614199432"><stats time="2239" expectations="10" successes="10" examples="10"></stats></UserModelSpec-stats>
