@@ -1,5 +1,5 @@
+import _root_.util._
 import models.DAO.TaskDAO
-import util._
 import org.junit.runner._
 import org.specs2.mutable._
 import org.specs2.runner._
@@ -92,10 +92,28 @@ class UserModelSpec extends Specification {
 
   "Json Value test" should {
     "It receives defined data as jSON" in {
-      val json = Utility.convertSeqToJson(Seq(1,2,3))
-      println(json )
+      val json = Utility.convertIntSeqToJson(Seq(1,2,3))
+      println( json )
       1 must equalTo(1)
     }
+
+    "convert to task to json" in {
+//      val json = Utility.convertTaskToJson(Task(4, "kjh", ",j"))
+//      val t = Task(5, "fg", "jk")
+//      val tj: Reads[Task] = Utility.convertTaskToJson(t)
+//      println( tj )
+      1 must equalTo(1)
+    }
+
+    "Anonymous Functions" in {
+      ((x: Int) => x * x)(3) must equalTo(9)
+    }
+
+    "parseJson" in {
+      val json = Utility.parseJson()
+      1 must equalTo(1)
+    }
+
   }
 
 

@@ -24,7 +24,6 @@ import scala.concurrent.Await
  * mapで作るqueryの型 : slick.dbio.DBIOAction[_,slick.dbio.NoStream,Nothing]
  */
 
-
 object TaskDAO {
 
   val tasks: TableQuery[TasksTable] = TableQuery[TasksTable]

@@ -11,7 +11,6 @@ import models.DAO._
  */
 
 //case class Task(task_title: String, task_content: String)
-
 object Task {
 
   val db = Database.forConfig("h2mem1")

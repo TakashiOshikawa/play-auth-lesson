@@ -8,6 +8,9 @@ import slick.lifted.Tag
 /**
  * Created by oshikawatakashi on 2015/07/18.
  */
+
+case class Task(id: Int, taskTitle: String, taskContent: String)
+
 class TasksTable(tag: Tag) extends Table[(Int, String, String)](tag, "Tasks") {
   def id = column[Int]("ID", O.PrimaryKey)
   def taskTitle = column[String]("TASK_TITLE")
