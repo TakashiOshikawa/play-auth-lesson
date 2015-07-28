@@ -1,288 +1,670 @@
-2015-07-18 20:01:06,715 - [INFO] - from play in pool-4-thread-4 
+2015-07-28 09:45:40,840 - [INFO] - from play in pool-4-thread-4 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2015-07-18 20:01:21,292 - [ERROR] - from application in New I/O worker #1 
-
-
-! @6mobmjcp5 - Internal server error, for (GET) [/play-auth/sub/login] ->
-
-play.PlayExceptions$CompilationException: Compilation error[inferred type arguments [Boolean] do not conform to method filter's type parameter bounds [T <: slick.lifted.Rep[_]]]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
-
-2015-07-18 20:01:21,445 - [WARN] - from play in New I/O worker #1 
-No application found at invoker init
-
-2015-07-18 20:02:47,013 - [ERROR] - from application in New I/O worker #1 
-
-
-! @6mobmo9kk - Internal server error, for (GET) [/play-auth/sub/login] ->
-
-play.PlayExceptions$CompilationException: Compilation error[inferred type arguments [Boolean] do not conform to method filter's type parameter bounds [T <: slick.lifted.Rep[_]]]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
-
-2015-07-18 20:04:48,042 - [ERROR] - from application in New I/O worker #1 
-
-
-! @6mobn56lj - Internal server error, for (GET) [/play-auth/sub/login] ->
-
-play.PlayExceptions$CompilationException: Compilation error[inferred type arguments [Boolean] do not conform to method filter's type parameter bounds [T <: slick.lifted.Rep[_]]]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
-
-2015-07-18 20:05:02,445 - [INFO] - from play in play-internal-execution-context-1 
+2015-07-28 09:45:51,957 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:h2:~/test
 
-2015-07-18 20:05:02,682 - [INFO] - from play in play-internal-execution-context-1 
+2015-07-28 09:45:52,164 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2015-07-18 20:06:40,294 - [ERROR] - from application in New I/O worker #1 
+2015-07-28 09:45:54,260 - [ERROR] - from application in play-akka.actor.default-dispatcher-2 
 
 
-! @6mobnbgn1 - Internal server error, for (GET) [/play-auth/sub/login] ->
+! @6n13cgbic - Internal server error, for (GET) [/play-auth/sub/login] ->
 
-play.PlayExceptions$CompilationException: Compilation error[Cannot find an implicit ExecutionContext. You might pass
-an (implicit ec: ExecutionContext) parameter to your method
-or import scala.concurrent.ExecutionContext.Implicits.global.]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+play.api.Application$$anon$1: Execution exception[[JdbcSQLException: テーブル "Tasks" が見つかりません
+Table "Tasks" not found; SQL statement:
+select x2."ID", x2."TASK_TITLE", x2."TASK_CONTENT" from "Tasks" x2 where x2."ID" <= 2 [42102-175]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.8.jar:2.3.8]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.6.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.6.jar:na]
+Caused by: org.h2.jdbc.JdbcSQLException: テーブル "Tasks" が見つかりません
+Table "Tasks" not found; SQL statement:
+select x2."ID", x2."TASK_TITLE", x2."TASK_CONTENT" from "Tasks" x2 where x2."ID" <= 2 [42102-175]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:332) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:172) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:149) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.readTableOrView(Parser.java:5071) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.readTableFilter(Parser.java:1188) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1813) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1921) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1807) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1631) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelect(Parser.java:1619) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parsePrepared(Parser.java:426) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parse(Parser.java:298) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parse(Parser.java:270) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.prepareCommand(Parser.java:235) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.engine.Session.prepareLocal(Session.java:436) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.engine.Session.prepareCommand(Session.java:379) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1138) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:70) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:267) ~[h2-1.3.175.jar:1.3.175]
+	at slick.jdbc.JdbcBackend$SessionDef$class.prepareStatement(JdbcBackend.scala:252) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.JdbcBackend$BaseSession.prepareStatement(JdbcBackend.scala:386) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.results(StatementInvoker.scala:33) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.iteratorTo(StatementInvoker.scala:22) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.Invoker$class.foreach(Invoker.scala:69) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.foreach(StatementInvoker.scala:16) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StreamingInvokerAction$class.run(StreamingInvokerAction.scala:22) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:218) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:218) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.liftedTree1$1(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.run(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_25]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_25]
 
-2015-07-18 20:07:01,352 - [INFO] - from play in play-internal-execution-context-1 
+2015-07-28 09:47:16,037 - [ERROR] - from application in play-akka.actor.default-dispatcher-5 
+
+
+! @6n13cl2i0 - Internal server error, for (GET) [/play-auth/sub/login] ->
+
+play.api.Application$$anon$1: Execution exception[[JdbcSQLException: テーブル "Tasks" が見つかりません
+Table "Tasks" not found; SQL statement:
+select x2."ID", x2."TASK_TITLE", x2."TASK_CONTENT" from "Tasks" x2 where x2."ID" <= 2 [42102-175]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.8.jar:2.3.8]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.6.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.6.jar:na]
+Caused by: org.h2.jdbc.JdbcSQLException: テーブル "Tasks" が見つかりません
+Table "Tasks" not found; SQL statement:
+select x2."ID", x2."TASK_TITLE", x2."TASK_CONTENT" from "Tasks" x2 where x2."ID" <= 2 [42102-175]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:332) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:172) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:149) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.readTableOrView(Parser.java:5071) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.readTableFilter(Parser.java:1188) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1813) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1921) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1807) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1631) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelect(Parser.java:1619) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parsePrepared(Parser.java:426) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parse(Parser.java:298) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parse(Parser.java:270) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.prepareCommand(Parser.java:235) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.engine.Session.prepareLocal(Session.java:436) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.engine.Session.prepareCommand(Session.java:379) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1138) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:70) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:267) ~[h2-1.3.175.jar:1.3.175]
+	at slick.jdbc.JdbcBackend$SessionDef$class.prepareStatement(JdbcBackend.scala:252) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.JdbcBackend$BaseSession.prepareStatement(JdbcBackend.scala:386) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.results(StatementInvoker.scala:33) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.iteratorTo(StatementInvoker.scala:22) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.Invoker$class.foreach(Invoker.scala:69) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.foreach(StatementInvoker.scala:16) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StreamingInvokerAction$class.run(StreamingInvokerAction.scala:22) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:218) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:218) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.liftedTree1$1(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.run(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_25]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_25]
+
+2015-07-28 09:47:17,513 - [ERROR] - from application in play-akka.actor.default-dispatcher-3 
+
+
+! @6n13cl4ml - Internal server error, for (GET) [/play-auth/sub/login] ->
+
+play.api.Application$$anon$1: Execution exception[[JdbcSQLException: テーブル "Tasks" が見つかりません
+Table "Tasks" not found; SQL statement:
+select x2."ID", x2."TASK_TITLE", x2."TASK_CONTENT" from "Tasks" x2 where x2."ID" <= 2 [42102-175]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.8.jar:2.3.8]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.6.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.6.jar:na]
+Caused by: org.h2.jdbc.JdbcSQLException: テーブル "Tasks" が見つかりません
+Table "Tasks" not found; SQL statement:
+select x2."ID", x2."TASK_TITLE", x2."TASK_CONTENT" from "Tasks" x2 where x2."ID" <= 2 [42102-175]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:332) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:172) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:149) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.readTableOrView(Parser.java:5071) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.readTableFilter(Parser.java:1188) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1813) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1921) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1807) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1631) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelect(Parser.java:1619) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parsePrepared(Parser.java:426) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parse(Parser.java:298) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parse(Parser.java:270) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.prepareCommand(Parser.java:235) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.engine.Session.prepareLocal(Session.java:436) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.engine.Session.prepareCommand(Session.java:379) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1138) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:70) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:267) ~[h2-1.3.175.jar:1.3.175]
+	at slick.jdbc.JdbcBackend$SessionDef$class.prepareStatement(JdbcBackend.scala:252) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.JdbcBackend$BaseSession.prepareStatement(JdbcBackend.scala:386) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.results(StatementInvoker.scala:33) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.iteratorTo(StatementInvoker.scala:22) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.Invoker$class.foreach(Invoker.scala:69) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.foreach(StatementInvoker.scala:16) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StreamingInvokerAction$class.run(StreamingInvokerAction.scala:22) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:218) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:218) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.liftedTree1$1(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.run(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_25]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_25]
+
+2015-07-28 09:48:36,361 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:h2:~/test
 
-2015-07-18 20:07:01,365 - [INFO] - from play in play-internal-execution-context-1 
+2015-07-28 09:48:36,370 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2015-07-18 20:11:41,733 - [INFO] - from play in play-internal-execution-context-1 
+2015-07-28 09:48:36,430 - [ERROR] - from application in play-akka.actor.default-dispatcher-5 
+
+
+! @6n13cphg2 - Internal server error, for (GET) [/play-auth/sub/login] ->
+
+play.api.Application$$anon$1: Execution exception[[JdbcSQLException: テーブル "Tasks" が見つかりません
+Table "Tasks" not found; SQL statement:
+select x2."ID", x2."TASK_TITLE", x2."TASK_CONTENT" from "Tasks" x2 where x2."ID" <= 2 [42102-175]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.8.jar:2.3.8]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.6.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.6.jar:na]
+Caused by: org.h2.jdbc.JdbcSQLException: テーブル "Tasks" が見つかりません
+Table "Tasks" not found; SQL statement:
+select x2."ID", x2."TASK_TITLE", x2."TASK_CONTENT" from "Tasks" x2 where x2."ID" <= 2 [42102-175]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:332) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:172) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:149) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.readTableOrView(Parser.java:5071) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.readTableFilter(Parser.java:1188) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1813) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1921) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1807) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1631) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelect(Parser.java:1619) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parsePrepared(Parser.java:426) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parse(Parser.java:298) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parse(Parser.java:270) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.prepareCommand(Parser.java:235) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.engine.Session.prepareLocal(Session.java:436) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.engine.Session.prepareCommand(Session.java:379) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1138) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:70) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:267) ~[h2-1.3.175.jar:1.3.175]
+	at slick.jdbc.JdbcBackend$SessionDef$class.prepareStatement(JdbcBackend.scala:252) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.JdbcBackend$BaseSession.prepareStatement(JdbcBackend.scala:386) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.results(StatementInvoker.scala:33) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.iteratorTo(StatementInvoker.scala:22) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.Invoker$class.foreach(Invoker.scala:69) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.foreach(StatementInvoker.scala:16) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StreamingInvokerAction$class.run(StreamingInvokerAction.scala:22) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:218) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:218) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.liftedTree1$1(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.run(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_25]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_25]
+
+2015-07-28 09:51:50,515 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6n13daiih - Internal server error, for (GET) [/play-auth/sub/login] ->
+
+play.PlayExceptions$CompilationException: Compilation error[object TasksTable is not a member of package models.table]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+
+2015-07-28 09:53:28,089 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:h2:~/test
 
-2015-07-18 20:11:41,754 - [INFO] - from play in play-internal-execution-context-1 
+2015-07-28 09:53:28,097 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2015-07-18 20:11:55,451 - [ERROR] - from application in New I/O worker #1 
+2015-07-28 09:53:28,154 - [ERROR] - from application in play-akka.actor.default-dispatcher-7 
 
 
-! @6mobo3f2g - Internal server error, for (GET) [/play-auth/sub/login] ->
+! @6n13dg746 - Internal server error, for (GET) [/play-auth/sub/login] ->
 
-play.PlayExceptions$CompilationException: Compilation error[Cannot write an instance of () => Unit to HTTP response. Try to define a Writeable[() => Unit]]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+play.api.Application$$anon$1: Execution exception[[JdbcSQLException: テーブル "tasks" が見つかりません
+Table "tasks" not found; SQL statement:
+select x2."id", x2."TASK_TITLE", x2."TASK_CONTENT" from "tasks" x2 where x2."id" <= 2 [42102-175]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.8.jar:2.3.8]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.6.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.6.jar:na]
+Caused by: org.h2.jdbc.JdbcSQLException: テーブル "tasks" が見つかりません
+Table "tasks" not found; SQL statement:
+select x2."id", x2."TASK_TITLE", x2."TASK_CONTENT" from "tasks" x2 where x2."id" <= 2 [42102-175]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:332) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:172) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:149) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.readTableOrView(Parser.java:5071) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.readTableFilter(Parser.java:1188) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1813) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1921) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1807) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1631) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelect(Parser.java:1619) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parsePrepared(Parser.java:426) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parse(Parser.java:298) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parse(Parser.java:270) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.prepareCommand(Parser.java:235) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.engine.Session.prepareLocal(Session.java:436) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.engine.Session.prepareCommand(Session.java:379) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1138) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:70) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:267) ~[h2-1.3.175.jar:1.3.175]
+	at slick.jdbc.JdbcBackend$SessionDef$class.prepareStatement(JdbcBackend.scala:252) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.JdbcBackend$BaseSession.prepareStatement(JdbcBackend.scala:386) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.results(StatementInvoker.scala:33) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.iteratorTo(StatementInvoker.scala:22) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.Invoker$class.foreach(Invoker.scala:69) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.foreach(StatementInvoker.scala:16) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StreamingInvokerAction$class.run(StreamingInvokerAction.scala:22) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:218) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:218) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.liftedTree1$1(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.run(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_25]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_25]
 
-2015-07-18 20:12:22,484 - [ERROR] - from application in New I/O worker #1 
-
-
-! @6mobo5329 - Internal server error, for (GET) [/play-auth/sub/login] ->
-
-play.PlayExceptions$CompilationException: Compilation error[Cannot write an instance of Unit to HTTP response. Try to define a Writeable[Unit]]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
-
-2015-07-18 20:23:05,954 - [ERROR] - from application in New I/O worker #2 
-
-
-! @6mobpfioo - Internal server error, for (GET) [/play-auth/sub/login] ->
-
-play.PlayExceptions$CompilationException: Compilation error[constructor cannot be instantiated to expected type;
- found   : (T1, T2, T3, T4, T5)
- required: String]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
-
-2015-07-18 20:23:52,967 - [INFO] - from play in play-internal-execution-context-1 
+2015-07-28 09:54:17,291 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:h2:~/test
 
-2015-07-18 20:23:52,979 - [INFO] - from play in play-internal-execution-context-1 
+2015-07-28 09:54:17,300 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2015-07-18 20:24:38,868 - [INFO] - from play in play-internal-execution-context-1 
+2015-07-28 09:54:17,357 - [ERROR] - from application in play-akka.actor.default-dispatcher-6 
+
+
+! @6n13dj1oh - Internal server error, for (GET) [/play-auth/sub/login] ->
+
+play.api.Application$$anon$1: Execution exception[[JdbcSQLException: テーブル "tasks" が見つかりません
+Table "tasks" not found; SQL statement:
+select x2."id", x2."task_title", x2."task_content" from "tasks" x2 where x2."id" <= 2 [42102-175]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.8.jar:2.3.8]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.6.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.6.jar:na]
+Caused by: org.h2.jdbc.JdbcSQLException: テーブル "tasks" が見つかりません
+Table "tasks" not found; SQL statement:
+select x2."id", x2."task_title", x2."task_content" from "tasks" x2 where x2."id" <= 2 [42102-175]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:332) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:172) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:149) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.readTableOrView(Parser.java:5071) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.readTableFilter(Parser.java:1188) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1813) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1921) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1807) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1631) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelect(Parser.java:1619) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parsePrepared(Parser.java:426) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parse(Parser.java:298) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parse(Parser.java:270) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.prepareCommand(Parser.java:235) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.engine.Session.prepareLocal(Session.java:436) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.engine.Session.prepareCommand(Session.java:379) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1138) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:70) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:267) ~[h2-1.3.175.jar:1.3.175]
+	at slick.jdbc.JdbcBackend$SessionDef$class.prepareStatement(JdbcBackend.scala:252) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.JdbcBackend$BaseSession.prepareStatement(JdbcBackend.scala:386) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.results(StatementInvoker.scala:33) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.iteratorTo(StatementInvoker.scala:22) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.Invoker$class.foreach(Invoker.scala:69) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.foreach(StatementInvoker.scala:16) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StreamingInvokerAction$class.run(StreamingInvokerAction.scala:22) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:218) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:218) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.liftedTree1$1(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.run(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_25]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_25]
+
+2015-07-28 09:56:57,330 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:h2:~/test
 
-2015-07-18 20:24:38,875 - [INFO] - from play in play-internal-execution-context-1 
+2015-07-28 09:56:57,337 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2015-07-18 20:24:53,510 - [ERROR] - from application in New I/O worker #2 
+2015-07-28 09:57:36,295 - [ERROR] - from application in play-akka.actor.default-dispatcher-10 
 
 
-! @6mobplm20 - Internal server error, for (GET) [/play-auth/sub/login] ->
+! @6n13e4a63 - Internal server error, for (GET) [/play-auth/sub/login] ->
 
-play.PlayExceptions$CompilationException: Compilation error[Cannot write an instance of Class[?0] to HTTP response. Try to define a Writeable[Class[?0]]]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+play.api.Application$$anon$1: Execution exception[[JdbcSQLException: テーブル "tasks" はすでに存在します
+Table "tasks" already exists; SQL statement:
+create table "tasks" ("id" INTEGER NOT NULL PRIMARY KEY,"task_title" VARCHAR NOT NULL,"task_content" VARCHAR NOT NULL) [42101-175]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.8.jar:2.3.8]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.6.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.6.jar:na]
+Caused by: org.h2.jdbc.JdbcSQLException: テーブル "tasks" はすでに存在します
+Table "tasks" already exists; SQL statement:
+create table "tasks" ("id" INTEGER NOT NULL PRIMARY KEY,"task_title" VARCHAR NOT NULL,"task_content" VARCHAR NOT NULL) [42101-175]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:332) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:172) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:149) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:109) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:79) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Command.executeUpdate(Command.java:253) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:193) ~[h2-1.3.175.jar:1.3.175]
+	at slick.driver.JdbcActionComponent$SchemaActionExtensionMethodsImpl$$anon$5$$anonfun$run$3$$anonfun$5.apply(JdbcActionComponent.scala:291) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$SchemaActionExtensionMethodsImpl$$anon$5$$anonfun$run$3$$anonfun$5.apply(JdbcActionComponent.scala:291) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.JdbcBackend$SessionDef$class.withPreparedStatement(JdbcBackend.scala:302) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.JdbcBackend$BaseSession.withPreparedStatement(JdbcBackend.scala:386) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$SchemaActionExtensionMethodsImpl$$anon$5$$anonfun$run$3.apply(JdbcActionComponent.scala:291) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$SchemaActionExtensionMethodsImpl$$anon$5$$anonfun$run$3.apply(JdbcActionComponent.scala:291) ~[slick_2.11-3.0.0.jar:na]
+	at scala.collection.immutable.Stream.foreach(Stream.scala:594) ~[scala-library-2.11.6.jar:na]
+	at slick.driver.JdbcActionComponent$SchemaActionExtensionMethodsImpl$$anon$5.run(JdbcActionComponent.scala:291) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$SchemaActionExtensionMethodsImpl$$anon$5.run(JdbcActionComponent.scala:289) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$SimpleJdbcDriverAction.run(JdbcActionComponent.scala:32) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$SimpleJdbcDriverAction.run(JdbcActionComponent.scala:29) ~[slick_2.11-3.0.0.jar:na]
+	at slick.dbio.SynchronousDatabaseAction$$anon$4.run(DBIOAction.scala:361) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.liftedTree1$1(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.run(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_25]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_25]
+
+2015-07-28 09:57:46,625 - [ERROR] - from application in play-akka.actor.default-dispatcher-10 
+
+
+! @6n13e4pda - Internal server error, for (GET) [/play-auth/sub/login] ->
+
+play.api.Application$$anon$1: Execution exception[[JdbcSQLException: テーブル "tasks" はすでに存在します
+Table "tasks" already exists; SQL statement:
+create table "tasks" ("id" INTEGER NOT NULL PRIMARY KEY,"task_title" VARCHAR NOT NULL,"task_content" VARCHAR NOT NULL) [42101-175]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.8.jar:2.3.8]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.6.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.6.jar:na]
+Caused by: org.h2.jdbc.JdbcSQLException: テーブル "tasks" はすでに存在します
+Table "tasks" already exists; SQL statement:
+create table "tasks" ("id" INTEGER NOT NULL PRIMARY KEY,"task_title" VARCHAR NOT NULL,"task_content" VARCHAR NOT NULL) [42101-175]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:332) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:172) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:149) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:109) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:79) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Command.executeUpdate(Command.java:253) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:193) ~[h2-1.3.175.jar:1.3.175]
+	at slick.driver.JdbcActionComponent$SchemaActionExtensionMethodsImpl$$anon$5$$anonfun$run$3$$anonfun$5.apply(JdbcActionComponent.scala:291) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$SchemaActionExtensionMethodsImpl$$anon$5$$anonfun$run$3$$anonfun$5.apply(JdbcActionComponent.scala:291) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.JdbcBackend$SessionDef$class.withPreparedStatement(JdbcBackend.scala:302) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.JdbcBackend$BaseSession.withPreparedStatement(JdbcBackend.scala:386) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$SchemaActionExtensionMethodsImpl$$anon$5$$anonfun$run$3.apply(JdbcActionComponent.scala:291) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$SchemaActionExtensionMethodsImpl$$anon$5$$anonfun$run$3.apply(JdbcActionComponent.scala:291) ~[slick_2.11-3.0.0.jar:na]
+	at scala.collection.immutable.Stream.foreach(Stream.scala:594) ~[scala-library-2.11.6.jar:na]
+	at slick.driver.JdbcActionComponent$SchemaActionExtensionMethodsImpl$$anon$5.run(JdbcActionComponent.scala:291) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$SchemaActionExtensionMethodsImpl$$anon$5.run(JdbcActionComponent.scala:289) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$SimpleJdbcDriverAction.run(JdbcActionComponent.scala:32) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$SimpleJdbcDriverAction.run(JdbcActionComponent.scala:29) ~[slick_2.11-3.0.0.jar:na]
+	at slick.dbio.SynchronousDatabaseAction$$anon$4.run(DBIOAction.scala:361) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.liftedTree1$1(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.run(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_25]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_25]
+
+2015-07-28 09:57:50,661 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:~/test
+
+2015-07-28 09:57:50,667 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-07-28 09:57:50,719 - [ERROR] - from application in play-akka.actor.default-dispatcher-11 
+
+
+! @6n13e55en - Internal server error, for (GET) [/play-auth/sub/login] ->
+
+play.api.Application$$anon$1: Execution exception[[JdbcSQLException: テーブル "tasks" が見つかりません
+Table "tasks" not found; SQL statement:
+select x2."id", x2."task_title", x2."task_content" from "tasks" x2 where x2."id" <= 2 [42102-175]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.8.jar:2.3.8]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.8.jar:2.3.8]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.6.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.6.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.6.jar:na]
+Caused by: org.h2.jdbc.JdbcSQLException: テーブル "tasks" が見つかりません
+Table "tasks" not found; SQL statement:
+select x2."id", x2."task_title", x2."task_content" from "tasks" x2 where x2."id" <= 2 [42102-175]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:332) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:172) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.message.DbException.get(DbException.java:149) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.readTableOrView(Parser.java:5071) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.readTableFilter(Parser.java:1188) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1813) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1921) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1807) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1631) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parseSelect(Parser.java:1619) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parsePrepared(Parser.java:426) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parse(Parser.java:298) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.parse(Parser.java:270) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.command.Parser.prepareCommand(Parser.java:235) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.engine.Session.prepareLocal(Session.java:436) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.engine.Session.prepareCommand(Session.java:379) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1138) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:70) ~[h2-1.3.175.jar:1.3.175]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:267) ~[h2-1.3.175.jar:1.3.175]
+	at slick.jdbc.JdbcBackend$SessionDef$class.prepareStatement(JdbcBackend.scala:252) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.JdbcBackend$BaseSession.prepareStatement(JdbcBackend.scala:386) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.results(StatementInvoker.scala:33) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.iteratorTo(StatementInvoker.scala:22) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.Invoker$class.foreach(Invoker.scala:69) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StatementInvoker.foreach(StatementInvoker.scala:16) ~[slick_2.11-3.0.0.jar:na]
+	at slick.jdbc.StreamingInvokerAction$class.run(StreamingInvokerAction.scala:22) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:218) ~[slick_2.11-3.0.0.jar:na]
+	at slick.driver.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:218) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.liftedTree1$1(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at slick.backend.DatabaseComponent$DatabaseDef$$anon$2.run(DatabaseComponent.scala:231) ~[slick_2.11-3.0.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_25]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_25]
+
+2015-07-28 09:58:03,251 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:~/test
+
+2015-07-28 09:58:03,261 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
 

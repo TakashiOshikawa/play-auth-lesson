@@ -25,7 +25,7 @@
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m test3[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0mTotal for specification ApplicationSpec[0m
-[0m[[0minfo[0m] [0m[36mFinished in 96 ms[0m[0m
+[0m[[0minfo[0m] [0m[36mFinished in 57 ms[0m[0m
 [0m[[0minfo[0m] [0m[36m[0m[36m9 examples, 0 failure, 0 error[0m[0m
 [0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 9 events.[0m
 [0m[[0mdebug[0m] [0m  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@473b3198, false, [SuiteSelector])[0m
@@ -43,34 +43,39 @@
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37mSlick DB Connection Test should[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m setup DB[37m[0m[0m
-[0m[[0minfo[0m] [0m[37m[0m[32m+[0m select all Task title[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m select task_title from tasks[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m select tasks by id[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m insert Task data[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[33mx[0m select all Task title[0m[0m
+[0m[[31merror[0m] [0m   '4' is not equal to '2' (UserModelSpec.scala:95)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37mJson Value test should[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m It receives defined data as jSON[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m convert to task to json[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m Anonymous Functions[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m parseJson[37m[0m[0m
-[0m[[0minfo[0m] [0m[37m[0m[32m+[0m convert Usrr to Json[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m convert User to Json[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37mUtilities should[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m measure the execution time[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0mTotal for specification UserModelSpec[0m
-[0m[[0minfo[0m] [0m[36mFinished in 2 seconds, 417 ms[0m[0m
-[0m[[0minfo[0m] [0m[36m[0m[36m12 examples, 0 failure, 0 error[0m[0m
-[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 12 events.[0m
+[0m[[0minfo[0m] [0m[36mFinished in 1 second, 778 ms[0m[0m
+[0m[[0minfo[0m] [0m[36m[0m[36m13 examples, 1 failure, 0 error[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 13 events.[0m
 [0m[[0minfo[0m] [0mScalaTest[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 6 seconds, 422 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 4 seconds, 487 milliseconds.[0m[0m
 [0m[[0minfo[0m] [0m[36mTotal number of tests run: 0[0m[0m
 [0m[[0minfo[0m] [0m[36mSuites: completed 0, aborted 0[0m[0m
 [0m[[0minfo[0m] [0m[36mTests: succeeded 0, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0minfo[0m] [0m[33mNo tests were executed.[0m[0m
 [0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
 [0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
-[0m[[0minfo[0m] [0mPassed: Total 21, Failed 0, Errors 0, Passed 21[0m
+[0m[[31merror[0m] [0mFailed: Total 22, Failed 1, Errors 0, Passed 21[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
 [0m[[0mdebug[0m] [0m	ApplicationSpec[0m
 [0m[[0mdebug[0m] [0m	IntegrationSpec[0m
-[0m[[0mdebug[0m] [0m	UserModelSpec[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	UserModelSpec[0m
+[0m[[31merror[0m] [0m(test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

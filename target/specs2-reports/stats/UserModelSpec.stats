@@ -274,3 +274,11 @@
 <UserModelSpec-stats timestamp="1437844265957"><stats time="2574" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
 <UserModelSpec-stats timestamp="1437845782767"><stats time="2700" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
 <UserModelSpec-stats timestamp="1438044034869"><stats time="2417" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1438089740625"><stats time="2237" expectations="13" successes="13" examples="13"><trend><stats time="2237" expectations="1" successes="1" examples="1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1438091486278"><stats time="2108" expectations="13" successes="13" examples="13"></stats></UserModelSpec-stats>
+<UserModelSpec-results timestamp="1438091546796"><result location="UserModelSpec (UserModelSpec.scala:92)" id="1772522400"><stats time="28" expectations="1" failures="1" examples="1"></stats></result>
+</UserModelSpec-results>
+<UserModelSpec-stats timestamp="1438091546825"><stats time="1685" expectations="13" failures="1" successes="12" examples="13"><trend><stats time="1685" failures="1" successes="-1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-results timestamp="1438091716027"><result location="UserModelSpec (UserModelSpec.scala:92)" id="1772522400"><stats time="14" expectations="1" failures="1" examples="1"></stats></result>
+</UserModelSpec-results>
+<UserModelSpec-stats timestamp="1438091716051"><stats time="1778" expectations="13" failures="1" successes="12" examples="13"></stats></UserModelSpec-stats>

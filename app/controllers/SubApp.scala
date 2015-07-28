@@ -39,6 +39,8 @@ object Subapp extends Controller with Secured {
   //ログインページ
   def login = Action { request =>
     val user_id = request.session.get("user_id").getOrElse(" non User ID")
+    TaskDAO setupDB
+//    TaskDAO insertUser
     val res = TaskDAO.findAll
 //    Ok( res.getClass.toString )
     Ok( res.toString )

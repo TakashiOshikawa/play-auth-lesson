@@ -71,12 +71,6 @@ class UserModelSpec extends Specification {
       1 must equalTo(1)
     }
 
-    "select all Task title" in {
-      val res = TaskDAO.findAll
-      println(res)
-      res.length must equalTo(2)
-    }
-
     "select task_title from tasks" in {
       val res = TaskDAO.findTaskTitle
       println( res )
@@ -87,6 +81,18 @@ class UserModelSpec extends Specification {
       val res = TaskDAO.findTasksById(2)
       println( res )
       res.length must equalTo(1)
+    }
+
+    "insert Task data" in {
+      val t = TaskDAO.insertTask((6, "test6", "test6"))
+      println(t)
+      1 must equalTo(1)
+    }
+
+    "select all Task title" in {
+      val res = TaskDAO.findAll
+      println(res)
+      res.length must equalTo(4)
     }
 
   }
@@ -117,7 +123,7 @@ class UserModelSpec extends Specification {
       1 must equalTo(1)
     }
 
-    "convert Usrr to Json" in {
+    "convert User to Json" in {
       val user = User("4", "user_pass", "user1")
       val jsonUser = Utility.convertUserToJson(Seq(user))
       1 must equalTo(1)

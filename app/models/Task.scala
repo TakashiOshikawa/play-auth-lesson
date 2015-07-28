@@ -5,6 +5,7 @@ import slick.driver.H2Driver.api._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 import models.DAO._
+import models.table._
 
 /**
  * Created by oshikawatakashi on 2015/07/16.
@@ -17,14 +18,14 @@ object Task {
   try {
 
 
-  class Tasks(tag: Tag) extends Table[(Int, String, String)](tag, "Tasks") {
-    def id = column[Int]("ID", O.PrimaryKey)
-    def taskTitle = column[String]("TASK_TITLE")
-    def taskContent = column[String]("TASK_CONTENT")
-
-    def * = (id, taskTitle, taskContent)
-  }
-  val tasks = TableQuery[Tasks]
+//  class Tasks(tag: Tag) extends Table[(Int, String, String)](tag, "tasks") {
+//    def id = column[Int]("id", O.PrimaryKey)
+//    def taskTitle = column[String]("task_title")
+//    def taskContent = column[String]("task_content")
+//
+//    def * = (id, taskTitle, taskContent)
+//  }
+  val tasks = TableQuery[TasksTable]
 
 
   val setup = DBIO.seq(

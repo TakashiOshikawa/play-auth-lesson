@@ -221,3 +221,7 @@
 <ApplicationSpec-stats timestamp="1437844263013"><stats time="113" expectations="9" successes="9" examples="9"></stats></ApplicationSpec-stats>
 <ApplicationSpec-stats timestamp="1437845779646"><stats time="120" expectations="9" successes="9" examples="9"></stats></ApplicationSpec-stats>
 <ApplicationSpec-stats timestamp="1438044032087"><stats time="96" expectations="9" successes="9" examples="9"></stats></ApplicationSpec-stats>
+<ApplicationSpec-stats timestamp="1438089737982"><stats time="100" expectations="9" successes="9" examples="9"></stats></ApplicationSpec-stats>
+<ApplicationSpec-stats timestamp="1438091483844"><stats time="92" expectations="9" successes="9" examples="9"></stats></ApplicationSpec-stats>
+<ApplicationSpec-stats timestamp="1438091544837"><stats time="60" expectations="9" successes="9" examples="9"></stats></ApplicationSpec-stats>
+<ApplicationSpec-stats timestamp="1438091713938"><stats time="57" expectations="9" successes="9" examples="9"></stats></ApplicationSpec-stats>

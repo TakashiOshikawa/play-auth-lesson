@@ -13,10 +13,10 @@ case class Task(id: Int, taskTitle: String, taskContent: String)
 case class Task2(id: Int, taskTitle: String, taskContent: String)
 case class Task3(id: Int, taskTitle: String, taskContent: String)
 
-class TasksTable(tag: Tag) extends Table[(Int, String, String)](tag, "Tasks") {
-  def id = column[Int]("ID", O.PrimaryKey)
-  def taskTitle = column[String]("TASK_TITLE")
-  def taskContent = column[String]("TASK_CONTENT")
+class TasksTable(tag: Tag) extends Table[(Int, String, String)](tag, "tasks") {
+  def id = column[Int]("id", O.PrimaryKey)
+  def taskTitle = column[String]("task_title")
+  def taskContent = column[String]("task_content")
 
 //  def _id = (id)
 //  def _taskTitle = (taskTitle)

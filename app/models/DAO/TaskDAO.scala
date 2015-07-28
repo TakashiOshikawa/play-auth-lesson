@@ -1,6 +1,6 @@
 package models.DAO
 
-import models.table.TasksTable
+import models.table._
 import slick.driver.H2Driver.api._
 
 import scala.concurrent.duration.Duration
@@ -55,14 +55,22 @@ object TaskDAO {
   }
 
 
-
-
   //DBIO
-//  def resultWrapper( dbio: slick.driver.H2Driver.StreamingDriverAction[Seq[_],_,slick.dbio.Effect.Read] ) = {
-  lazy val resultWrapper = ( dbio: slick.driver.H2Driver.StreamingDriverAction[Seq[_],_,slick.dbio.Effect.Read] ) => {
+  //  def resultWrapper( dbio: slick.driver.H2Driver.StreamingDriverAction[Seq[_],_,slick.dbio.Effect.Read] ) = {
+  lazy val resultWrapper = (dbio: slick.driver.H2Driver.StreamingDriverAction[Seq[_], _, slick.dbio.Effect.Read]) => {
     val db = Database.forConfig("h2mem1")
-    try{
+    try {
       Await.result(db.run(dbio), Duration.Inf)
+    } finally db.close
+  }
+
+
+  // TODO insert User data
+  lazy val insertTask = (t: (Int, String, String)) => {
+    val db = Database.forConfig("h2mem1")
+    try {
+      Await.result(db.run( DBIO.seq( tasks += t ) ), Duration.Inf)
+      tasks.insertStatement.result
     } finally db.close
   }
 
@@ -73,7 +81,8 @@ object TaskDAO {
     val db = Database.forConfig("h2mem1")
     try {
       // Execute query
-      val query = tasks.filter(_.id <= 2).map(t => t.*)
+//      val query = tasks.filter(_.id <= 2).map(t => t.*)
+      val query = tasks.map(t => t.*)
 
       val res = Await.result(db.run(query.result), Duration.Inf)
       res.toSeq
@@ -95,6 +104,7 @@ object TaskDAO {
     val query = tasks.filter( _.id === id ).map( _.* ).result
     resultWrapper(query)
   }
+
 
 
 }
