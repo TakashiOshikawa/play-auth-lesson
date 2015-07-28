@@ -10,6 +10,8 @@ import slick.lifted.Tag
  */
 
 case class Task(id: Int, taskTitle: String, taskContent: String)
+case class Task2(id: Int, taskTitle: String, taskContent: String)
+case class Task3(id: Int, taskTitle: String, taskContent: String)
 
 class TasksTable(tag: Tag) extends Table[(Int, String, String)](tag, "Tasks") {
   def id = column[Int]("ID", O.PrimaryKey)

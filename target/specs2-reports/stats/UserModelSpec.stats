@@ -251,3 +251,26 @@
 <UserModelSpec-stats timestamp="1437614047086"><stats time="2359" expectations="10" successes="10" examples="10"></stats></UserModelSpec-stats>
 <UserModelSpec-stats timestamp="1437614123065"><stats time="2659" expectations="10" successes="10" examples="10"></stats></UserModelSpec-stats>
 <UserModelSpec-stats timestamp="1437614199432"><stats time="2239" expectations="10" successes="10" examples="10"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437651737016"><stats time="2406" expectations="10" successes="10" examples="10"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437652101501"><stats time="2465" expectations="11" successes="11" examples="11"><trend><stats time="2465" expectations="1" successes="1" examples="1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437841639435"><stats time="2288" expectations="11" successes="11" examples="11"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437841943984"><stats time="2389" expectations="12" successes="12" examples="12"><trend><stats time="2389" expectations="1" successes="1" examples="1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437842571030"><stats time="2611" expectations="13" successes="13" examples="13"><trend><stats time="2611" expectations="1" successes="1" examples="1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437842656582"><stats time="2941" expectations="12" successes="12" examples="12"><trend><stats time="2941" expectations="-1" successes="-1" examples="-1"></stats></trend></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437842718230"><stats time="2486" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437842823514"><stats time="2278" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437842903260"><stats time="2205" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437842954054"><stats time="2052" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437842992475"><stats time="1957" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437843042824"><stats time="2066" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437843104279"><stats time="2178" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437843170321"><stats time="2037" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437843239497"><stats time="3057" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437843585730"><stats time="4070" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437843696173"><stats time="3891" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437843769516"><stats time="3521" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437844102063"><stats time="3619" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437844145366"><stats time="1981" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437844265957"><stats time="2574" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1437845782767"><stats time="2700" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>
+<UserModelSpec-stats timestamp="1438044034869"><stats time="2417" expectations="12" successes="12" examples="12"></stats></UserModelSpec-stats>

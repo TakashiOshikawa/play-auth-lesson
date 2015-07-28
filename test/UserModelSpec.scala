@@ -1,6 +1,7 @@
-import _root_.util._
+import util._
 import models.DAO.TaskDAO
-import models.table.Task
+import models.User
+import models.table._
 import org.junit.runner._
 import org.specs2.mutable._
 import org.specs2.runner._
@@ -101,6 +102,8 @@ class UserModelSpec extends Specification {
     "convert to task to json" in {
       val t = Task(5, "fg", "jk")
       val tj = Utility.convertTaskToJson(Seq(t))
+//      val t2 = Task2(6, "as", "fd")
+//      val tj2 = Utility.convertTaskToJson(Seq(t2))
       println(tj)
       1 must equalTo(1)
     }
@@ -114,6 +117,21 @@ class UserModelSpec extends Specification {
       1 must equalTo(1)
     }
 
+    "convert Usrr to Json" in {
+      val user = User("4", "user_pass", "user1")
+      val jsonUser = Utility.convertUserToJson(Seq(user))
+      1 must equalTo(1)
+    }
+
+  }
+
+
+  "Utilities" should {
+    "measure the execution time" in {
+      val time = Utility measureExecutionTime( Utility multi3(5273) )
+      println( time )
+      1 must equalTo(1)
+    }
   }
 
 
